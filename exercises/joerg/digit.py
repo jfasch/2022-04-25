@@ -1,6 +1,5 @@
 import sys
 
-
 translation_table = {
     0: 'zero',
     1: 'one',
