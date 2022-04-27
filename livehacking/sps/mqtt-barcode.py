@@ -7,7 +7,8 @@ import json
 
 reader = barcode_reader_Y1234.Barcode_Y1234()
 
-c = client.Client()c.connect('localhost', 1883)
+c = client.Client()
+c.connect('localhost', 1883)
 
 def event_received(client, userdata, event):
     event = json.loads(event.payload)
